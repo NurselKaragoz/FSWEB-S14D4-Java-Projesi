@@ -1,8 +1,8 @@
 package com.workintech.monster;
 
 public interface Bleedable {
-    default double bleed(){
+     double bleed();
 
-        return 0;
-    }
+
+
 }
